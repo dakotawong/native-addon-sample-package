@@ -10,6 +10,9 @@ jobs:
         uses: actions/setup-python@v4.5.0
       - name: Run Tests
         uses: actions/checkout@v3.3.0
+      - name: Install Dependencies
+        run: |
+          npm install
       - name: Build
         run: |
           node-gyp rebuild
