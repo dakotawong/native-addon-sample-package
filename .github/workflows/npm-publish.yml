@@ -13,8 +13,7 @@ jobs:
       - name: Install Dependencies
         run: |
           npm install
-      - name: Build
+      - name: Run  Tests
         run: |
-          node-gyp rebuild
           npm run test
     
