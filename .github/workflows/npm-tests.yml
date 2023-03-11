@@ -1,4 +1,4 @@
-name: Test Runner
+name: Mocha Tests
 on:
   pull_request:
     branches:
